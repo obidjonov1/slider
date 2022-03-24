@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>skip ad</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="slider">
+        <div class="myslide fade">
+          <img src="./images/slide.jpeg" />
+        </div>
+
+        <div class="myslide fade">
+          <img src="./images/slide1.png" />
+        </div>
+
+        <div class="myslide fade">
+          <img src="./images/slide2.jpeg" />
+        </div>
+
+        <div class="myslide fade">
+          <img src="./images/slide3.jpeg" />
+        </div>
+
+        <div class="myslide fade">
+          <img src="./images/slide4.jpeg" />
+        </div>
+
+		<!-- onclick js -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <div class="dots__box">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+        <!-- /onclick js -->
+      </div>
+    </div>
+
+    <script src="/main.js"></script>
+  </body>
+</html>
